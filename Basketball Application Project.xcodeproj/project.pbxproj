@@ -15,8 +15,9 @@
 		6ECE79251FC2ECAD001F1E55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECE79241FC2ECAD001F1E55 /* main.m */; };
 		6ECE792F1FC2ECAD001F1E55 /* Basketball_Application_ProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECE792E1FC2ECAD001F1E55 /* Basketball_Application_ProjectTests.m */; };
 		6ECE793A1FC2ECAD001F1E55 /* Basketball_Application_ProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECE79391FC2ECAD001F1E55 /* Basketball_Application_ProjectUITests.m */; };
-		6ECE79491FC46F75001F1E55 /* HomeScreenLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 6ECE79471FC46F75001F1E55 /* HomeScreenLogo.png */; };
 		6ECE794A1FC46F75001F1E55 /* BaketballImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 6ECE79481FC46F75001F1E55 /* BaketballImage.png */; };
+		6ECE794C1FC48AD6001F1E55 /* ButtonImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 6ECE794B1FC48AD6001F1E55 /* ButtonImage.png */; };
+		6ECE794E1FC49A0C001F1E55 /* UniversityOfLeedsPng.png in Resources */ = {isa = PBXBuildFile; fileRef = 6ECE794D1FC49A0C001F1E55 /* UniversityOfLeedsPng.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,8 +54,9 @@
 		6ECE79351FC2ECAD001F1E55 /* Basketball Application ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Basketball Application ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ECE79391FC2ECAD001F1E55 /* Basketball_Application_ProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Basketball_Application_ProjectUITests.m; sourceTree = "<group>"; };
 		6ECE793B1FC2ECAD001F1E55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6ECE79471FC46F75001F1E55 /* HomeScreenLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HomeScreenLogo.png; sourceTree = SOURCE_ROOT; };
 		6ECE79481FC46F75001F1E55 /* BaketballImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BaketballImage.png; sourceTree = SOURCE_ROOT; };
+		6ECE794B1FC48AD6001F1E55 /* ButtonImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonImage.png; sourceTree = SOURCE_ROOT; };
+		6ECE794D1FC49A0C001F1E55 /* UniversityOfLeedsPng.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UniversityOfLeedsPng.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,12 +112,13 @@
 				6ECE79181FC2ECAD001F1E55 /* ViewController.h */,
 				6ECE79191FC2ECAD001F1E55 /* ViewController.m */,
 				6ECE791B1FC2ECAD001F1E55 /* Main.storyboard */,
+				6ECE794D1FC49A0C001F1E55 /* UniversityOfLeedsPng.png */,
+				6ECE794B1FC48AD6001F1E55 /* ButtonImage.png */,
 				6ECE791E1FC2ECAD001F1E55 /* Assets.xcassets */,
 				6ECE79201FC2ECAD001F1E55 /* LaunchScreen.storyboard */,
 				6ECE79231FC2ECAD001F1E55 /* Info.plist */,
 				6ECE79241FC2ECAD001F1E55 /* main.m */,
 				6ECE79481FC46F75001F1E55 /* BaketballImage.png */,
-				6ECE79471FC46F75001F1E55 /* HomeScreenLogo.png */,
 			);
 			path = "Basketball Application Project";
 			sourceTree = "<group>";
@@ -247,8 +250,9 @@
 				6ECE79221FC2ECAD001F1E55 /* LaunchScreen.storyboard in Resources */,
 				6ECE791F1FC2ECAD001F1E55 /* Assets.xcassets in Resources */,
 				6ECE794A1FC46F75001F1E55 /* BaketballImage.png in Resources */,
+				6ECE794C1FC48AD6001F1E55 /* ButtonImage.png in Resources */,
 				6ECE791D1FC2ECAD001F1E55 /* Main.storyboard in Resources */,
-				6ECE79491FC46F75001F1E55 /* HomeScreenLogo.png in Resources */,
+				6ECE794E1FC49A0C001F1E55 /* UniversityOfLeedsPng.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +443,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L7M945W575;
 				INFOPLIST_FILE = "Basketball Application Project/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "uk.ac.leeds.Basketball-Application-Project";
@@ -452,6 +457,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L7M945W575;
 				INFOPLIST_FILE = "Basketball Application Project/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "uk.ac.leeds.Basketball-Application-Project";
