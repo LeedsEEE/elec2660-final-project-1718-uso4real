@@ -18,6 +18,7 @@
 		6ECE794A1FC46F75001F1E55 /* BaketballImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 6ECE79481FC46F75001F1E55 /* BaketballImage.png */; };
 		6ECE794C1FC48AD6001F1E55 /* ButtonImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 6ECE794B1FC48AD6001F1E55 /* ButtonImage.png */; };
 		6ECE794E1FC49A0C001F1E55 /* UniversityOfLeedsPng.png in Resources */ = {isa = PBXBuildFile; fileRef = 6ECE794D1FC49A0C001F1E55 /* UniversityOfLeedsPng.png */; };
+		6ECE79511FCC3F19001F1E55 /* FixturesAndResultsWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECE79501FCC3F19001F1E55 /* FixturesAndResultsWebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		6ECE79481FC46F75001F1E55 /* BaketballImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BaketballImage.png; sourceTree = SOURCE_ROOT; };
 		6ECE794B1FC48AD6001F1E55 /* ButtonImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonImage.png; sourceTree = SOURCE_ROOT; };
 		6ECE794D1FC49A0C001F1E55 /* UniversityOfLeedsPng.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UniversityOfLeedsPng.png; sourceTree = SOURCE_ROOT; };
+		6ECE794F1FCC3F19001F1E55 /* FixturesAndResultsWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FixturesAndResultsWebViewController.h; sourceTree = "<group>"; };
+		6ECE79501FCC3F19001F1E55 /* FixturesAndResultsWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FixturesAndResultsWebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				6ECE79231FC2ECAD001F1E55 /* Info.plist */,
 				6ECE79241FC2ECAD001F1E55 /* main.m */,
 				6ECE79481FC46F75001F1E55 /* BaketballImage.png */,
+				6ECE794F1FCC3F19001F1E55 /* FixturesAndResultsWebViewController.h */,
+				6ECE79501FCC3F19001F1E55 /* FixturesAndResultsWebViewController.m */,
 			);
 			path = "Basketball Application Project";
 			sourceTree = "<group>";
@@ -277,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6ECE79511FCC3F19001F1E55 /* FixturesAndResultsWebViewController.m in Sources */,
 				6ECE791A1FC2ECAD001F1E55 /* ViewController.m in Sources */,
 				6ECE79251FC2ECAD001F1E55 /* main.m in Sources */,
 				6ECE79171FC2ECAD001F1E55 /* AppDelegate.m in Sources */,
