@@ -20,7 +20,7 @@
     UIWebView *webView = [[UIWebView alloc] initWithFrame:self.view.bounds]; // creates a webview programatically, using the size of the whole screen
     [self.view addSubview:webView];
     
-    NSString *fullURL = @"https://bucs.org.uk";
+    NSString *fullURL = @"http://m.bucs.org.uk/bucscore/mTeam.aspx?id=653&sport=Basketball";
     NSURL *url = [NSURL URLWithString:fullURL];
     NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
     [webView loadRequest:requestObj];
