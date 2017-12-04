@@ -8,7 +8,10 @@
 
 #import "TeamListPlayerProfileViewController.h"
 
-@interface TeamListPlayerProfileViewController () <UIPickerViewDelegate, UIPickerViewDataSource>
+@interface TeamListPlayerProfileViewController ()
+{
+    NSArray *playerNames;
+}
 
 @end
 
@@ -17,12 +20,25 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    playerNames = @[@"Uso Lucky-Ikem",@"Scott Fisher",@"Jake Worrad",@"Ernestas Jackevic",@"Wezley Bishop (Captain)",@"Ivan Ivanov",@"Jonah Cohen",@"Brett Worrad",@"Ashley Birks",@"Conor Culverhouse",@"Kadessi Alassani",@"Francesco Ruggeri"];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+- (NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView{
+    return 1;
+}
+- (NSInteger)pickerView:(UIPickerView *)pickerView numberOfRowsInComponent:(NSInteger)component{
+    return playerNames.count;
+}
+- (NSString *)pickerView:(UIPickerView *)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component{
+    return playerNames[row];
+}
+
+
 
 /*
 #pragma mark - Navigation

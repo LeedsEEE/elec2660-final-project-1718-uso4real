@@ -7,8 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface TeamListPlayerProfileViewController : UIViewController
+@interface TeamListPlayerProfileViewController : UIViewController   <UIPickerViewDelegate, UIPickerViewDataSource>
 
 @property (weak, nonatomic) IBOutlet UIPickerView *playerPicker;
 @property (nonatomic, strong) NSString *PlayerName;

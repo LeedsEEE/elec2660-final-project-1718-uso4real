@@ -163,18 +163,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <pickerView contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uTI-HG-3cs">
-                                <rect key="frame" x="0.0" y="232" width="375" height="162"/>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uTI-HG-3cs">
+                                <rect key="frame" x="0.0" y="164" width="375" height="403"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="ghC-7y-ODC"/>
+                                </constraints>
                                 <connections>
                                     <outlet property="dataSource" destination="rDn-Ej-dZS" id="tKb-00-RrT"/>
                                     <outlet property="delegate" destination="rDn-Ej-dZS" id="ISp-bi-W5y"/>
                                 </connections>
                             </pickerView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.99808046809999995" green="1" blue="0.9519001654" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="uTI-HG-3cs" firstAttribute="leading" secondItem="lTb-ZR-CT2" secondAttribute="leading" id="Bnd-23-gTY"/>
-                            <constraint firstItem="uTI-HG-3cs" firstAttribute="trailing" secondItem="lTb-ZR-CT2" secondAttribute="trailing" id="qr7-OU-wJc"/>
+                            <constraint firstItem="uTI-HG-3cs" firstAttribute="leading" secondItem="lTb-ZR-CT2" secondAttribute="leading" id="8Kw-rS-Wa7"/>
+                            <constraint firstItem="uTI-HG-3cs" firstAttribute="top" secondItem="lTb-ZR-CT2" secondAttribute="top" constant="100" id="Sj4-G4-9BS"/>
+                            <constraint firstItem="lTb-ZR-CT2" firstAttribute="bottom" secondItem="uTI-HG-3cs" secondAttribute="bottom" constant="100" id="WTR-zx-PSc"/>
+                            <constraint firstItem="uTI-HG-3cs" firstAttribute="trailing" secondItem="lTb-ZR-CT2" secondAttribute="trailing" id="sGM-08-k55"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="lTb-ZR-CT2"/>
                     </view>
