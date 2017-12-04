@@ -19,6 +19,8 @@
 		6ECE794C1FC48AD6001F1E55 /* ButtonImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 6ECE794B1FC48AD6001F1E55 /* ButtonImage.png */; };
 		6ECE794E1FC49A0C001F1E55 /* UniversityOfLeedsPng.png in Resources */ = {isa = PBXBuildFile; fileRef = 6ECE794D1FC49A0C001F1E55 /* UniversityOfLeedsPng.png */; };
 		6ECE79511FCC3F19001F1E55 /* FixturesAndResultsWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECE79501FCC3F19001F1E55 /* FixturesAndResultsWebViewController.m */; };
+		6EFB3A2B1FD19FBF00B420A8 /* TeamListPlayerProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EFB3A2A1FD19FBF00B420A8 /* TeamListPlayerProfileViewController.m */; };
+		6EFB3A341FD56B7F00B420A8 /* PlayerDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EFB3A331FD56B7F00B420A8 /* PlayerDataModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,10 @@
 		6ECE794D1FC49A0C001F1E55 /* UniversityOfLeedsPng.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UniversityOfLeedsPng.png; sourceTree = SOURCE_ROOT; };
 		6ECE794F1FCC3F19001F1E55 /* FixturesAndResultsWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FixturesAndResultsWebViewController.h; sourceTree = "<group>"; };
 		6ECE79501FCC3F19001F1E55 /* FixturesAndResultsWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FixturesAndResultsWebViewController.m; sourceTree = "<group>"; };
+		6EFB3A291FD19FBF00B420A8 /* TeamListPlayerProfileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TeamListPlayerProfileViewController.h; sourceTree = "<group>"; };
+		6EFB3A2A1FD19FBF00B420A8 /* TeamListPlayerProfileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TeamListPlayerProfileViewController.m; sourceTree = "<group>"; };
+		6EFB3A321FD56B7F00B420A8 /* PlayerDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayerDataModel.h; sourceTree = "<group>"; };
+		6EFB3A331FD56B7F00B420A8 /* PlayerDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayerDataModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +121,10 @@
 				6ECE79181FC2ECAD001F1E55 /* ViewController.h */,
 				6ECE79191FC2ECAD001F1E55 /* ViewController.m */,
 				6ECE791B1FC2ECAD001F1E55 /* Main.storyboard */,
+				6EFB3A321FD56B7F00B420A8 /* PlayerDataModel.h */,
+				6EFB3A331FD56B7F00B420A8 /* PlayerDataModel.m */,
+				6EFB3A291FD19FBF00B420A8 /* TeamListPlayerProfileViewController.h */,
+				6EFB3A2A1FD19FBF00B420A8 /* TeamListPlayerProfileViewController.m */,
 				6ECE794D1FC49A0C001F1E55 /* UniversityOfLeedsPng.png */,
 				6ECE794B1FC48AD6001F1E55 /* ButtonImage.png */,
 				6ECE791E1FC2ECAD001F1E55 /* Assets.xcassets */,
@@ -282,9 +292,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EFB3A2B1FD19FBF00B420A8 /* TeamListPlayerProfileViewController.m in Sources */,
 				6ECE79511FCC3F19001F1E55 /* FixturesAndResultsWebViewController.m in Sources */,
 				6ECE791A1FC2ECAD001F1E55 /* ViewController.m in Sources */,
 				6ECE79251FC2ECAD001F1E55 /* main.m in Sources */,
+				6EFB3A341FD56B7F00B420A8 /* PlayerDataModel.m in Sources */,
 				6ECE79171FC2ECAD001F1E55 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

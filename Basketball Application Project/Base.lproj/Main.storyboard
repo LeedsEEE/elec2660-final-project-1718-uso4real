@@ -75,6 +75,9 @@
                                 <state key="normal" title="Team List / Player Information" backgroundImage="ButtonImage.png">
                                     <color key="titleColor" red="8.7522190330000004e-05" green="0.45524666879999998" blue="0.26134913650000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="rDn-Ej-dZS" kind="show" id="NNp-Gy-MLR"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x4k-pl-5WT">
                                 <rect key="frame" x="31" y="481" width="304" height="52"/>
@@ -151,6 +154,37 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Uha-sO-Q4M" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="208.80000000000001" y="6.746626686656672"/>
+        </scene>
+        <!--Team List Player Profile View Controller-->
+        <scene sceneID="qNz-s6-Spi">
+            <objects>
+                <viewController id="rDn-Ej-dZS" customClass="TeamListPlayerProfileViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ghK-7P-DLO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pickerView contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uTI-HG-3cs">
+                                <rect key="frame" x="0.0" y="232" width="375" height="162"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="rDn-Ej-dZS" id="tKb-00-RrT"/>
+                                    <outlet property="delegate" destination="rDn-Ej-dZS" id="ISp-bi-W5y"/>
+                                </connections>
+                            </pickerView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="uTI-HG-3cs" firstAttribute="leading" secondItem="lTb-ZR-CT2" secondAttribute="leading" id="Bnd-23-gTY"/>
+                            <constraint firstItem="uTI-HG-3cs" firstAttribute="trailing" secondItem="lTb-ZR-CT2" secondAttribute="trailing" id="qr7-OU-wJc"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="lTb-ZR-CT2"/>
+                    </view>
+                    <connections>
+                        <outlet property="playerPicker" destination="uTI-HG-3cs" id="A8i-qn-ywC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lXc-2s-OoJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="209" y="781"/>
         </scene>
     </scenes>
     <resources>
