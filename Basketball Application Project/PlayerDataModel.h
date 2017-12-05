@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "TeamListPlayerProfileViewController.h"
+#import "Player.h"
 @interface PlayerDataModel : NSObject
 
 @property (strong, nonatomic) NSMutableArray *playerProfile;

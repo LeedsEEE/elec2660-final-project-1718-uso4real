@@ -16,7 +16,7 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [self.navigationController setNavigationBarHidden:YES animated:animated];
-    [super viewWillAppear:animated]; //
+    [super viewWillAppear:animated]; //Creates a navigation bar on each view controller page, so the so user can go back to a previous view page. The navigation bar is also set to 'hidden' so only the button 'back' is visible. Code gotten from: www.stackoverflow.com/questions/845583/iphone-hide-navigation-bar-only-on-first-page
 }
 
 - (void)viewWillDisappear:(BOOL)animated {

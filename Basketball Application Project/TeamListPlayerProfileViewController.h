@@ -7,17 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Variables.h"
+#import "PlayerProfileViewController.h"
+#import "PlayerDataModel.h"
+
 @interface TeamListPlayerProfileViewController : UIViewController   <UIPickerViewDelegate, UIPickerViewDataSource>
 
 @property (weak, nonatomic) IBOutlet UIPickerView *playerPicker;
-@property (nonatomic, strong) NSString *PlayerName;
-@property (nonatomic, strong) NSString *PlayerPosition;
-@property (nonatomic, strong) NSString *DateOfBirth;
-@property (nonatomic, strong) NSString *PlayerHeight;
-@property (nonatomic, strong) NSString *PlayerWeight;
-@property (nonatomic, strong) NSString *CourseOfStudy;
-@property NSInteger YearOfStudy;
-@property (nonatomic, strong) NSString *Nationality;
+
+@property (nonatomic, strong) Variables *data;
+@property (nonatomic, strong) PlayerDataModel *dataModel;
+
 
 
 
