@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E872F141FD785A2003958F4 /* Scott.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E872F131FD785A2003958F4 /* Scott.jpg */; };
+		6E872F221FD79010003958F4 /* Jake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E872F211FD79010003958F4 /* Jake.jpg */; };
+		6E872F241FD790DD003958F4 /* Ernie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E872F231FD790DD003958F4 /* Ernie.jpg */; };
+		6E872F261FD790F2003958F4 /* Wezley.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6E872F251FD790F2003958F4 /* Wezley.jpeg */; };
+		6E872F281FD79322003958F4 /* Ivan.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6E872F271FD79322003958F4 /* Ivan.jpeg */; };
+		6E872F2A1FD79358003958F4 /* Jonah.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E872F291FD79358003958F4 /* Jonah.jpg */; };
+		6E872F2C1FD7938F003958F4 /* Brett.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E872F2B1FD7938F003958F4 /* Brett.jpg */; };
+		6E872F2E1FD793BF003958F4 /* Ashley.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E872F2D1FD793BF003958F4 /* Ashley.png */; };
+		6E872F301FD793EE003958F4 /* Conor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E872F2F1FD793EE003958F4 /* Conor.jpg */; };
+		6E872F321FD79417003958F4 /* Kadessi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E872F311FD79417003958F4 /* Kadessi.jpg */; };
+		6E872F361FD79470003958F4 /* Jordi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E872F351FD79470003958F4 /* Jordi.jpg */; };
+		6E872F381FD795C2003958F4 /* Francesco.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E872F371FD795C2003958F4 /* Francesco.jpg */; };
 		6ECE79171FC2ECAD001F1E55 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECE79161FC2ECAD001F1E55 /* AppDelegate.m */; };
 		6ECE791A1FC2ECAD001F1E55 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECE79191FC2ECAD001F1E55 /* ViewController.m */; };
 		6ECE791D1FC2ECAD001F1E55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ECE791B1FC2ECAD001F1E55 /* Main.storyboard */; };
@@ -45,6 +57,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6E872F131FD785A2003958F4 /* Scott.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Scott.jpg; sourceTree = SOURCE_ROOT; };
+		6E872F211FD79010003958F4 /* Jake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Jake.jpg; sourceTree = SOURCE_ROOT; };
+		6E872F231FD790DD003958F4 /* Ernie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ernie.jpg; sourceTree = SOURCE_ROOT; };
+		6E872F251FD790F2003958F4 /* Wezley.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Wezley.jpeg; sourceTree = SOURCE_ROOT; };
+		6E872F271FD79322003958F4 /* Ivan.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ivan.jpeg; sourceTree = SOURCE_ROOT; };
+		6E872F291FD79358003958F4 /* Jonah.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Jonah.jpg; sourceTree = SOURCE_ROOT; };
+		6E872F2B1FD7938F003958F4 /* Brett.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Brett.jpg; sourceTree = SOURCE_ROOT; };
+		6E872F2D1FD793BF003958F4 /* Ashley.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ashley.png; sourceTree = SOURCE_ROOT; };
+		6E872F2F1FD793EE003958F4 /* Conor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Conor.jpg; sourceTree = SOURCE_ROOT; };
+		6E872F311FD79417003958F4 /* Kadessi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kadessi.jpg; sourceTree = SOURCE_ROOT; };
+		6E872F351FD79470003958F4 /* Jordi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Jordi.jpg; sourceTree = SOURCE_ROOT; };
+		6E872F371FD795C2003958F4 /* Francesco.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Francesco.jpg; sourceTree = SOURCE_ROOT; };
 		6ECE79121FC2ECAD001F1E55 /* Basketball Application Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Basketball Application Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ECE79151FC2ECAD001F1E55 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6ECE79161FC2ECAD001F1E55 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -177,6 +201,18 @@
 		6EFB3A3E1FD7062B00B420A8 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				6E872F371FD795C2003958F4 /* Francesco.jpg */,
+				6E872F351FD79470003958F4 /* Jordi.jpg */,
+				6E872F311FD79417003958F4 /* Kadessi.jpg */,
+				6E872F2F1FD793EE003958F4 /* Conor.jpg */,
+				6E872F2D1FD793BF003958F4 /* Ashley.png */,
+				6E872F2B1FD7938F003958F4 /* Brett.jpg */,
+				6E872F291FD79358003958F4 /* Jonah.jpg */,
+				6E872F271FD79322003958F4 /* Ivan.jpeg */,
+				6E872F251FD790F2003958F4 /* Wezley.jpeg */,
+				6E872F231FD790DD003958F4 /* Ernie.jpg */,
+				6E872F211FD79010003958F4 /* Jake.jpg */,
+				6E872F131FD785A2003958F4 /* Scott.jpg */,
 				6EFB3A3F1FD7065200B420A8 /* Uso.jpg */,
 			);
 			path = Resources;
@@ -290,11 +326,23 @@
 			files = (
 				6ECE79221FC2ECAD001F1E55 /* LaunchScreen.storyboard in Resources */,
 				6ECE791F1FC2ECAD001F1E55 /* Assets.xcassets in Resources */,
+				6E872F221FD79010003958F4 /* Jake.jpg in Resources */,
+				6E872F2C1FD7938F003958F4 /* Brett.jpg in Resources */,
+				6E872F281FD79322003958F4 /* Ivan.jpeg in Resources */,
 				6ECE794A1FC46F75001F1E55 /* BaketballImage.png in Resources */,
+				6E872F381FD795C2003958F4 /* Francesco.jpg in Resources */,
+				6E872F321FD79417003958F4 /* Kadessi.jpg in Resources */,
 				6ECE794C1FC48AD6001F1E55 /* ButtonImage.png in Resources */,
 				6EFB3A401FD7065200B420A8 /* Uso.jpg in Resources */,
+				6E872F141FD785A2003958F4 /* Scott.jpg in Resources */,
+				6E872F301FD793EE003958F4 /* Conor.jpg in Resources */,
 				6ECE791D1FC2ECAD001F1E55 /* Main.storyboard in Resources */,
+				6E872F2A1FD79358003958F4 /* Jonah.jpg in Resources */,
+				6E872F261FD790F2003958F4 /* Wezley.jpeg in Resources */,
 				6ECE794E1FC49A0C001F1E55 /* UniversityOfLeedsPng.png in Resources */,
+				6E872F2E1FD793BF003958F4 /* Ashley.png in Resources */,
+				6E872F241FD790DD003958F4 /* Ernie.jpg in Resources */,
+				6E872F361FD79470003958F4 /* Jordi.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

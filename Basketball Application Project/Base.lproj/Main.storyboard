@@ -165,7 +165,7 @@
                                 </connections>
                             </pickerView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TEAM LIST / PLAYER PROFILE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mGE-ZG-YaV">
-                                <rect key="frame" x="44" y="94" width="287" height="21"/>
+                                <rect key="frame" x="44" y="191" width="287" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="287" id="QZe-yk-mOJ"/>
                                 </constraints>
@@ -175,19 +175,23 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hX0-X4-aI8">
                                 <rect key="frame" x="104" y="550" width="166" height="30"/>
-                                <state key="normal" title="Show Player Information">
+                                <state key="normal" title="Show Player Profile">
                                     <color key="titleColor" red="8.7522190330000004e-05" green="0.45524666879999998" blue="0.26134913650000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="PUK-Bo-7SQ" kind="push" identifier="showDetail" id="O4L-CN-jZz"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="UniversityOfLeedsPng.png" translatesAutoresizingMaskIntoConstraints="NO" id="DJj-cs-J5v">
+                                <rect key="frame" x="143" y="70" width="88" height="114"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.99808046809999995" green="1" blue="0.9519001654" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="lTb-ZR-CT2" firstAttribute="bottom" secondItem="hX0-X4-aI8" secondAttribute="bottom" constant="87" id="6ul-1k-Pgv"/>
                             <constraint firstItem="uTI-HG-3cs" firstAttribute="leading" secondItem="lTb-ZR-CT2" secondAttribute="leading" id="8Kw-rS-Wa7"/>
-                            <constraint firstItem="mGE-ZG-YaV" firstAttribute="top" secondItem="lTb-ZR-CT2" secondAttribute="top" constant="30" id="8xo-sn-6SU"/>
+                            <constraint firstItem="mGE-ZG-YaV" firstAttribute="top" secondItem="lTb-ZR-CT2" secondAttribute="top" constant="127" id="8xo-sn-6SU"/>
                             <constraint firstItem="uTI-HG-3cs" firstAttribute="top" secondItem="lTb-ZR-CT2" secondAttribute="top" constant="100" id="Sj4-G4-9BS"/>
                             <constraint firstItem="lTb-ZR-CT2" firstAttribute="bottom" secondItem="uTI-HG-3cs" secondAttribute="bottom" constant="100" id="WTR-zx-PSc"/>
                             <constraint firstItem="hX0-X4-aI8" firstAttribute="top" secondItem="uTI-HG-3cs" secondAttribute="bottom" constant="-17" id="cJB-zP-23o"/>
@@ -285,8 +289,8 @@
                                 <color key="textColor" red="8.7522190330000004e-05" green="0.45524666879999998" blue="0.26134913650000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AIm-mS-aHj">
-                                <rect key="frame" x="157" y="274" width="219" height="41"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AIm-mS-aHj">
+                                <rect key="frame" x="158" y="269" width="218" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="8.7522190330000004e-05" green="0.45524666879999998" blue="0.26134913650000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -300,7 +304,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nationality: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GcI-mS-7qZ">
-                                <rect key="frame" x="16" y="361" width="91" height="21"/>
+                                <rect key="frame" x="16" y="352" width="91" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="8.7522190330000004e-05" green="0.45524666879999998" blue="0.26134913650000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -314,7 +318,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PUA-ST-EVb">
-                                <rect key="frame" x="158" y="361" width="209" height="21"/>
+                                <rect key="frame" x="158" y="352" width="209" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="8.7522190330000004e-05" green="0.45524666879999998" blue="0.26134913650000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -337,6 +341,10 @@
                                 <color key="textColor" red="8.7522190330000004e-05" green="0.45524666879999998" blue="0.26134913650000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="UniversityOfLeedsPng.png" translatesAutoresizingMaskIntoConstraints="NO" id="NDk-2R-FQq">
+                                <rect key="frame" x="13" y="74" width="43" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.99808046809999995" green="1" blue="0.9519001654" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
