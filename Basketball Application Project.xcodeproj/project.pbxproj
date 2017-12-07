@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E02C3981FD8982000853C34 /* flex.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E02C3971FD8982000853C34 /* flex.png */; };
+		6E02C39A1FD899DB00853C34 /* 2 Low.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E02C3991FD899DB00853C34 /* 2 Low.png */; };
+		6E02C39C1FD89B0D00853C34 /* Texas.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E02C39B1FD89B0C00853C34 /* Texas.png */; };
+		6E02C39E1FD89B8E00853C34 /* Triangle.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E02C39D1FD89B8E00853C34 /* Triangle.png */; };
+		6E02C3A01FD89BEA00853C34 /* Double.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E02C39F1FD89BEA00853C34 /* Double.png */; };
 		6E872F141FD785A2003958F4 /* Scott.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E872F131FD785A2003958F4 /* Scott.jpg */; };
 		6E872F221FD79010003958F4 /* Jake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E872F211FD79010003958F4 /* Jake.jpg */; };
 		6E872F241FD790DD003958F4 /* Ernie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E872F231FD790DD003958F4 /* Ernie.jpg */; };
@@ -19,6 +24,8 @@
 		6E872F321FD79417003958F4 /* Kadessi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E872F311FD79417003958F4 /* Kadessi.jpg */; };
 		6E872F361FD79470003958F4 /* Jordi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E872F351FD79470003958F4 /* Jordi.jpg */; };
 		6E872F381FD795C2003958F4 /* Francesco.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E872F371FD795C2003958F4 /* Francesco.jpg */; };
+		6E872F3C1FD87E1D003958F4 /* Symbols & Meanings.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E872F3B1FD87E1D003958F4 /* Symbols & Meanings.png */; };
+		6E872F3E1FD885D5003958F4 /* flash.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E872F3D1FD885D5003958F4 /* flash.png */; };
 		6ECE79171FC2ECAD001F1E55 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECE79161FC2ECAD001F1E55 /* AppDelegate.m */; };
 		6ECE791A1FC2ECAD001F1E55 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECE79191FC2ECAD001F1E55 /* ViewController.m */; };
 		6ECE791D1FC2ECAD001F1E55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ECE791B1FC2ECAD001F1E55 /* Main.storyboard */; };
@@ -57,6 +64,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6E02C3971FD8982000853C34 /* flex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flex.png; sourceTree = SOURCE_ROOT; };
+		6E02C3991FD899DB00853C34 /* 2 Low.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2 Low.png"; sourceTree = SOURCE_ROOT; };
+		6E02C39B1FD89B0C00853C34 /* Texas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Texas.png; sourceTree = SOURCE_ROOT; };
+		6E02C39D1FD89B8E00853C34 /* Triangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Triangle.png; sourceTree = SOURCE_ROOT; };
+		6E02C39F1FD89BEA00853C34 /* Double.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Double.png; sourceTree = SOURCE_ROOT; };
 		6E872F131FD785A2003958F4 /* Scott.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Scott.jpg; sourceTree = SOURCE_ROOT; };
 		6E872F211FD79010003958F4 /* Jake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Jake.jpg; sourceTree = SOURCE_ROOT; };
 		6E872F231FD790DD003958F4 /* Ernie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ernie.jpg; sourceTree = SOURCE_ROOT; };
@@ -69,6 +81,8 @@
 		6E872F311FD79417003958F4 /* Kadessi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kadessi.jpg; sourceTree = SOURCE_ROOT; };
 		6E872F351FD79470003958F4 /* Jordi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Jordi.jpg; sourceTree = SOURCE_ROOT; };
 		6E872F371FD795C2003958F4 /* Francesco.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Francesco.jpg; sourceTree = SOURCE_ROOT; };
+		6E872F3B1FD87E1D003958F4 /* Symbols & Meanings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Symbols & Meanings.png"; sourceTree = SOURCE_ROOT; };
+		6E872F3D1FD885D5003958F4 /* flash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flash.png; sourceTree = SOURCE_ROOT; };
 		6ECE79121FC2ECAD001F1E55 /* Basketball Application Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Basketball Application Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ECE79151FC2ECAD001F1E55 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6ECE79161FC2ECAD001F1E55 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -201,6 +215,13 @@
 		6EFB3A3E1FD7062B00B420A8 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				6E02C39F1FD89BEA00853C34 /* Double.png */,
+				6E02C39D1FD89B8E00853C34 /* Triangle.png */,
+				6E02C39B1FD89B0C00853C34 /* Texas.png */,
+				6E02C3991FD899DB00853C34 /* 2 Low.png */,
+				6E02C3971FD8982000853C34 /* flex.png */,
+				6E872F3D1FD885D5003958F4 /* flash.png */,
+				6E872F3B1FD87E1D003958F4 /* Symbols & Meanings.png */,
 				6E872F371FD795C2003958F4 /* Francesco.jpg */,
 				6E872F351FD79470003958F4 /* Jordi.jpg */,
 				6E872F311FD79417003958F4 /* Kadessi.jpg */,
@@ -324,14 +345,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E02C3A01FD89BEA00853C34 /* Double.png in Resources */,
+				6E872F3E1FD885D5003958F4 /* flash.png in Resources */,
+				6E02C39E1FD89B8E00853C34 /* Triangle.png in Resources */,
 				6ECE79221FC2ECAD001F1E55 /* LaunchScreen.storyboard in Resources */,
 				6ECE791F1FC2ECAD001F1E55 /* Assets.xcassets in Resources */,
 				6E872F221FD79010003958F4 /* Jake.jpg in Resources */,
 				6E872F2C1FD7938F003958F4 /* Brett.jpg in Resources */,
 				6E872F281FD79322003958F4 /* Ivan.jpeg in Resources */,
 				6ECE794A1FC46F75001F1E55 /* BaketballImage.png in Resources */,
+				6E872F3C1FD87E1D003958F4 /* Symbols & Meanings.png in Resources */,
 				6E872F381FD795C2003958F4 /* Francesco.jpg in Resources */,
+				6E02C39C1FD89B0D00853C34 /* Texas.png in Resources */,
 				6E872F321FD79417003958F4 /* Kadessi.jpg in Resources */,
+				6E02C3981FD8982000853C34 /* flex.png in Resources */,
 				6ECE794C1FC48AD6001F1E55 /* ButtonImage.png in Resources */,
 				6EFB3A401FD7065200B420A8 /* Uso.jpg in Resources */,
 				6E872F141FD785A2003958F4 /* Scott.jpg in Resources */,
@@ -340,6 +367,7 @@
 				6E872F2A1FD79358003958F4 /* Jonah.jpg in Resources */,
 				6E872F261FD790F2003958F4 /* Wezley.jpeg in Resources */,
 				6ECE794E1FC49A0C001F1E55 /* UniversityOfLeedsPng.png in Resources */,
+				6E02C39A1FD899DB00853C34 /* 2 Low.png in Resources */,
 				6E872F2E1FD793BF003958F4 /* Ashley.png in Resources */,
 				6E872F241FD790DD003958F4 /* Ernie.jpg in Resources */,
 				6E872F361FD79470003958F4 /* Jordi.jpg in Resources */,
