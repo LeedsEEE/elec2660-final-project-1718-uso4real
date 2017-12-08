@@ -27,14 +27,14 @@
                                 <color key="textColor" red="8.752219032742646e-05" green="0.45524666878172593" blue="0.26134913653983921" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BaketballImage" translatesAutoresizingMaskIntoConstraints="NO" id="yrd-n7-D9q">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BaketballImage" translatesAutoresizingMaskIntoConstraints="NO" id="yrd-n7-D9q">
                                 <rect key="frame" x="156" y="178" width="62" height="58"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="58" id="N9B-KD-zLD"/>
                                     <constraint firstAttribute="width" constant="62" id="gRr-SI-32D"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="UniversityOfLeedsPng" translatesAutoresizingMaskIntoConstraints="NO" id="jwE-xV-o0S">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="UniversityOfLeedsPng" translatesAutoresizingMaskIntoConstraints="NO" id="jwE-xV-o0S">
                                 <rect key="frame" x="129" y="283" width="130" height="197"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="130" id="XOh-cK-DWD"/>
